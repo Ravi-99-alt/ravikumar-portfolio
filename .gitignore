@@ -1,0 +1,30 @@
+# Python / virtual environments
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Flask instance and local data
+instance/
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Test / build artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+dist/
+build/
+.env
+.venv/
+__pycache__/
+*.pyc
